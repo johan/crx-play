@@ -1,0 +1,22 @@
+{
+  "name": "Promiscuous API play extension", // max 45 chars
+  "version": "0.1",
+  "description": "Funcionally useless, but comfy for experimenting with Chrome APIs. If you install it, disable it as soon as you aren't playing; it violates the principle of least permission, in order to make interactive javascript command line testing comfier.",
+  "icons": {
+     "16": "q-16.png",
+     "19": "q-19.png",
+     "32": "q-32.png",
+     "48": "q-48.png",
+    "128": "q-128.png"
+  },
+  "browser_action": {
+    "default_icon": "q-19.png",
+    "default_title": "Promiscuous API play",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "http://*/*",
+    "bookmarks",
+    "tabs"
+  ]
+}
